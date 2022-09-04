@@ -187,23 +187,23 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
+   background: #2B2B2B;/*191919*//*2B2B2B*/
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
 }
 
-#about a, #about a:visited  { color: #fff; }
+#about a, #about a:visited  { color: #11ABB0; }/*fff*/
 #about a:hover, #about a:focus { color: #11ABB0; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
-   color: #fff;
+   color: #11ABB0;/*fff*/
    margin-bottom: 12px;
 }
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: #ffffff;/*7A7A7A*/
 }
 #about .profile-pic {
    position: relative;
@@ -211,7 +211,7 @@ ul#nav li.current a { color: #F06000; }
    height: 120px;
    border-radius: 100%;
 }
-#about .contact-details { width: 41.66667%; }
+#about .contact-details { width: 41.66667%; }/*41.66667%*/
 #about .download {
    width: 58.33333%;
    padding-top: 6px;
@@ -222,7 +222,7 @@ ul#nav li.current a { color: #F06000; }
    background: #444;
 }
 #about .download .button:hover {
-   background: #fff;
+   background: #11ABB0;/*fff*/
    color: #2B2B2B;
 }
 #about .download .button i {
@@ -236,17 +236,18 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background: #fff;
+   background: #363636;/*191919*//*2B2B2B*//*363636*/
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
 }
 
 #resume a, #resume a:visited  { color: #11ABB0; }
-#resume a:hover, #resume a:focus { color: #313131; }
+#resume a:hover, #resume a:focus { color: #11ABB0; }/*313131*/
 
 #resume h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
+   color: #11ABB0;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
@@ -256,19 +257,22 @@ ul#nav li.current a { color: #F06000; }
 }
 #resume h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
+   color: #ffffff;
 }
-
+#resume p{
+   color: #ffffff;
+}
 #resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
 
 .education, .work {
    margin-bottom: 48px;
    padding-bottom: 24px;
-   border-bottom: 1px solid #E8E8E8;
+   border-bottom: 2px solid #ff0000;/*E8E8E8*/
 }
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
-   color: #6E7881;
+   color: #ffffff;/*6E7881*/
    margin-bottom: 18px;
    margin-top: 9px;
 }
@@ -298,13 +302,13 @@ ul#nav li.current a { color: #F06000; }
 .bars li {
    position: relative;
   	margin-bottom: 60px;
-  	background: #ccc;
+  	background: #ccc;/*ccc*/
   	height: 42px;
   	border-radius: 3px;
 }
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
-   color: #313131;
+   color: #ffffff;/*313131*/
 	text-transform: uppercase;
    letter-spacing: 2px;
 	font-weight: normal;
@@ -318,7 +322,7 @@ ul#nav li.current a { color: #F06000; }
 
    margin: 0;
    padding-right: 24px;
-  	background: #313131;
+  	background: #11abb0;/*313131*/
    display: inline-block;
   	height: 42px;
    line-height: 42px;
@@ -788,45 +792,53 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background: #191919;
+   background: #2B2B2B;/*2B2B2B*//*191919*/
    padding-top: 96px;
-   padding-bottom: 102px;
-   color: #636363;
+   padding-bottom: 102px;/*102*/
+   color: #ffffff;/*636363*/
 }
-#contact .section-head { margin-bottom: 42px; }
+#contact .section-head { margin-bottom: 42px; }/*42*/
 
 #contact a, #contact a:visited  { color: #11ABB0; }
 #contact a:hover, #contact a:focus { color: #fff; }
 
 #contact h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
-   text-transform: uppercase;
-   letter-spacing: 3px;
-   color: #EBEEEE;
+   /*text-transform: uppercase;*/
+   /*letter-spacing: 3px;*/
+   color: #11abb0;/*EBEEEE*/
    margin-bottom: 6px;
 }
 #contact h1 span { display: none; }
-#contact h1:before {
+/*#contact h1:before {
    font-family: 'FontAwesome';
    content: "\f0e0";
-	padding-right: 10px;
-	font-size: 72px;
-   line-height: 72px;
+	padding-right: 10px;/*10
+	font-size: 72px;/*72
+   line-height: 72px;/*72
    text-align: left;
    float: left;
    color: #ebeeee;
-}
+}*/
 
 #contact h4 {
-   font: 16px/24px 'opensans-bold', sans-serif;
-   color: #EBEEEE;
-   margin-bottom: 6px;
+   font: 22px/30px 'opensans-bold', sans-serif;
+   color: #11abb0;
+   margin-bottom: 12px;
+   margin-left: 30px;
 }
+
 #contact p.lead {
-   font: 18px/36px 'opensans-light', sans-serif;
-   padding-right: 3%;
+   line-height: 30px;/*18/36*/
+   /*font: 18/36px 'opensans-light', sans-serif;*/
+   margin-left: 30px;
+   /*padding-right: 3%;*/
+   margin-bottom: 12px;
 }
-#contact .header-col { padding-top: 6px; }
+#contact .header-col { 
+   padding-top: 6px;
+
+ }
 
 
 /* contact form */
@@ -834,7 +846,7 @@ call-to-action .button {
 #contact label {
    font: 15px/24px 'opensans-bold', sans-serif;
    margin: 12px 0;
-   color: #EBEEEE;
+   color: #EBEEEE;/*EBEEEE*/
 	display: inline-block;
 	float: left;
    width: 26%;
@@ -926,15 +938,16 @@ call-to-action .button {
 
 footer {
    padding-top: 48px;
+   
    margin-bottom: 48px;
-   color: #303030;
+   color: #303030;/*303030*/
    font-size: 14px;
    text-align: center;
    position: relative;
 }
 
 footer a, footer a:visited { color: #525252; }
-footer a:hover, footer a:focus { color: #fff; }
+footer a:hover, footer a:focus { color: #11abb0; }
 
 /* copyright */
 footer .copyright {
@@ -997,10 +1010,13 @@ footer .social-links li:first-child { margin-left: 0; }
    -ms-transition: all 0.2s ease-in-out;
    transition: all 0.2s ease-in-out;
 
-   color: #fff;
+   color: #0F9095;/*fff*/
    font-size: 21px;
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #0F9095; }
+#go-top a:hover { 
+   background-color: #0F9095;
+   color: #0f0f0f;
+ }
 
