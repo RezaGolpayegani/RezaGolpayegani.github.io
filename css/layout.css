@@ -260,9 +260,16 @@ ul#nav li.current a { color: #F06000; }
    border-bottom: 3px solid #11ABB0;
    padding-bottom: 6px;
 }
-#resume h3 {
+#resume h3 a{
    font: 25px/30px 'opensans-bold', sans-serif;
-   color: #ffffff;
+   color: #f66497;/*ffffff*//*f66497*//*F06000*/
+}
+#resume h3 a:hover{
+   color: #11ABB0;
+}
+#resume h3 b{
+   font: 25px/30px 'opensans-bold', sans-serif;
+   color: #f66497;
 }
 #resume p{
    color: #ffffff;
