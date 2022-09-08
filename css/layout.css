@@ -224,8 +224,8 @@ ul#nav li.current a { color: #F06000; }
 /* d. Resume Section
 /* ------------------------------------------------------------------ */
 
-#resume a, #resume a:visited  { color: #11ABB0; }/*11ABB0*/
-#resume a:hover, #resume a:focus { color: #f66497; }/*11ABB0*//*313131*/
+/*#resume a, #resume a:visited  { color: #11ABB0; }/*11ABB0*/
+/*resume a:hover, #resume a:focus { color: #11ABB0; }/*11ABB0*//*313131*/
 
 #resume .download {
    width: 58.33333%;
@@ -234,6 +234,7 @@ ul#nav li.current a { color: #F06000; }
 #resume .download .button {
    margin-top: 6px;
    background: #444;
+   color: #11ABB0;
 }
 #resume .download .button:hover {
    background: #11ABB0;/*fff*/
