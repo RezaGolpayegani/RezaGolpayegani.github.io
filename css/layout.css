@@ -9,7 +9,7 @@
    a. General Styles
    b. Header Styles
    c. About Section
-   d. Resume Section
+   d. CV Section
    e. Portfolio Section
    f. Call To Action Section
    g. Testimonials Section
@@ -200,7 +200,7 @@ ul#nav li.current a { color: #F06000; }
 #about a:hover, #about a:focus { color: #11ABB0; }
 
 #about h2 {
-   font: 22px/30px 'opensans-bold', sans-serif;
+   font: 25px/30px 'opensans-bold', sans-serif;
    color: #11ABB0;/*fff*/
    margin-bottom: 12px;
 }
@@ -214,87 +214,91 @@ ul#nav li.current a { color: #F06000; }
    height: 120px;
    border-radius: 100%;
 }
-#about .contact-details { width: 41.66667%; }/*41.66667%*/
+
 
 #about .main-col { padding-right: 5%; }
 
 
 
 /* ------------------------------------------------------------------ */
-/* d. Resume Section
+/* d. CV Section
 /* ------------------------------------------------------------------ */
 
-/*#resume a, #resume a:visited  { color: #11ABB0; }/*11ABB0*/
-/*resume a:hover, #resume a:focus { color: #11ABB0; }/*11ABB0*//*313131*/
+/*#CV a, #CV a:visited  { color: #11ABB0; }/*11ABB0*/
+/*CV a:hover, #CV a:focus { color: #11ABB0; }/*11ABB0*//*313131*/
 
-#resume .download {
+#CV .download {
    width: 58.33333%;
    padding-top: 6px;
 }
-#resume .download .button {
+#CV .download .button {
    margin-top: 6px;
    background: #444;
    color: #11ABB0;
 }
-#resume .download .button:hover {
+#CV .download .button:hover {
    background: #11ABB0;/*fff*/
    color: #2B2B2B;
 }
-#resume .download .button i {
+#CV .download .button i {
    margin-right: 15px;
    font-size: 20px;
 }
 
-#resume {
+#CV {
    background: #363636;/*191919*//*2B2B2B*//*363636*/
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
 }
 
-#resume h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
+#CV h1 {
+   font: 25px/30px 'opensans-bold', sans-serif;
    color: #11ABB0;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
-#resume h1 span {
+#CV h1 span {
+   font: 25px/30px 'opensans-bold', sans-serif;
    border-bottom: 3px solid #11ABB0;
    padding-bottom: 6px;
+
 }
-#resume h3 a{
+#CV h3 a{
+   
    font: 25px/30px 'opensans-bold', sans-serif;
    color: #f66497;/*ffffff*//*f66497*//*F06000*/
+   
 }
-#resume h3 a:hover{
+#CV h3 a:hover{
    color: #11ABB0;
 }
-#resume h3 b{
+#CV h3 b{
    font: 25px/30px 'opensans-bold', sans-serif;
    color: #f66497;
 }
-#resume p{
+#CV p{
    color: #ffffff;
 }
-#resume .header-col { padding-top: 9px; }
-#resume .main-col { padding-right: 10%; }
+#CV .header-col { padding-top: 9px; }
+#CV .main-col { padding-right: 10%; }
 
 .education, .work {
    margin-bottom: 48px;
    padding-bottom: 24px;
    border-bottom: 2px solid #ff0000;/*E8E8E8*/
 }
-#resume .info {
+#CV .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #ffffff;/*6E7881*/
    margin-bottom: 18px;
    margin-top: 9px;
 }
-#resume .info span {
+#CV .info span {
    margin-right: 5px;
    margin-left: 5px;
 }
-#resume .date {
+#CV .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
@@ -817,7 +821,7 @@ call-to-action .button {
 #contact a:hover, #contact a:focus { color: #fff; }
 
 #contact h1 {
-   font: 22px/30px 'opensans-bold', sans-serif;
+   font: 25px/30px 'opensans-bold', sans-serif;
    color: #11abb0;
    margin-bottom: 12px;
    margin-left: 30px;
