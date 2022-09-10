@@ -205,6 +205,7 @@ ul#nav li.current a { color: #F06000; }
    margin-bottom: 12px;
    /*margin-top: 12px;*/
 }
+
 #about ii{
    font-size: 12px;
    color: #11ABB0;
@@ -219,32 +220,34 @@ ul#nav li.current a { color: #F06000; }
 #about a{
    line-height: 30px;
    color: #f66497;/*fff F06000 11abb0 f66497*/
+
 }
 #about a:hover{
    line-height: 30px;
    color: #F06000;/*fff F06000 11abb0 f66497*/
+   
 }
 #about .profile-pic {
    margin-top: 10px;
    margin-bottom: 10px;
-   margin-left: 35px;
    position: relative; /*relative*/
    width: 120px;
    height: 120px;
    border-radius: 100%;
 }
+#about .center{
+   /*border: 5px solid #FFFF00;*/
+   text-align: center;
+}
 #about c {
    font: 22px/30px 'opensans-bold', sans-serif;
    color: #11abb0;/*fff*/
-   /*letter-spacing: -2px;*/
-   /*margin: 0 auto 18px auto;*/
-   
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 #about d{
    line-height: 30px;
    color: #ffffff;/*7A7A7A*/
-   vertical-align: middle;
+   
 }
 /* about social links */
 #about .social {
@@ -260,7 +263,7 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .social li a { 
    color: #11ABB0; /*fff F06000 11abb0 f66497*/
-   margin-bottom: 1000000000px;
+   margin-bottom: 10px;
  }
 #about .social li a:hover { color: #F06000; }
 
@@ -875,13 +878,13 @@ call-to-action .button {
    font: 25px/30px 'opensans-bold', sans-serif;
    color: #11abb0;
    margin-bottom: 12px;
-   margin-left: 125px;
+   /*margin-left: 125px;*/
 }
 
 #contact p {
    line-height: 30px;/*18/36*/
    /*font: 18/36px 'opensans-light', sans-serif;*/
-   margin-left: 125px;
+   /*margin-left: 125px;*/
    /*padding-right: 3%;*/
    margin-bottom: 12px;
 }
@@ -909,15 +912,21 @@ footer a:hover, footer a:focus { color: #F06000; }
 footer .copyright {
     margin: 0;
     padding: 0;
+    color: #303030;
  }
 footer .copyright li {
     display: inline-block;
     margin: 0;
     padding: 0;
     line-height: 24px;
+    color: #303030;
 }
 .ie footer .copyright li {
    display: inline;
+   color: #303030;
+}
+footer .copyright li a{
+   color: #303030;
 }
 footer .copyright li:before {
     content: "\2022";
