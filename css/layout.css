@@ -230,9 +230,9 @@ ul#nav li.current a { color: #F06000; }
 #about .profile-pic {
    margin-top: 10px;
    margin-bottom: 10px;
-   position: relative; /*relative*/
-   width: 120px;
-   height: 120px;
+   /*position: relative; /*relative*/
+   width: 190px;/*120*/
+   height: 190px;/*120*/
    border-radius: 100%;
 }
 #about .center{
