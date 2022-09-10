@@ -34,8 +34,11 @@
 
 <body>
 
-   <!-- Header
-   ================================================== -->
+
+
+   <!---
+   <-- Header
+   ================================================== --
    <header id="home">
 
       <nav id="nav-wrap">
@@ -47,13 +50,13 @@
             <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
             <li><a class="smoothscroll" href="#about">About</a></li>
 	         <li><a class="smoothscroll" href="#CV">CV</a></li>
-            <!--<li><a class="smoothscroll" href="#portfolio">Works</a></li> -->
-            <!-- <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li> -->
+            <--<li><a class="smoothscroll" href="#portfolio">Works</a></li> --
+            <-- <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li> --
             <li><a class="smoothscroll" href="#contact">Contact</a></li>
-         </ul> <!-- end #nav -->
+         </ul> <-- end #nav --
 
-      </nav> <!-- end #nav-wrap -->
-
+      </nav> <-- end #nav-wrap --
+<!--
       <div class="row banner">
          <div class="banner-text">
             <h1 class="responsive-headline">Reza Golapayegani<br><br></h1>
@@ -68,8 +71,8 @@
                <li><a href="https://github.com/RezaGolpayegani"><i class ="fa fa-github"></i></a></li>
                <li><a href="reza.golpayegani1379@gmail.com"><i class ="fa fa-envelope"></i></a></li>
                <li><a href="https://join.skype.com/invite/iN6pYxvEkRTQ"><i class="fa fa-skype"></i></a></li>
-               <!--<li><a href="#"><i class="fa fa-dribbble"></i></a></li>-->
-               <!--<li><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
+               <--<li><a href="#"><i class="fa fa-dribbble"></i></a></li>--
+               <--<li><a href="#"><i class="fa fa-google-plus"></i></a></li>--
             </ul>
          </div>
       </div>
@@ -78,21 +81,52 @@
          <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
       </p>
 
-   </header> <!-- Header End -->
+   </header> <-- Header End --
+
+-->
+
+
 
 
    <!-- About Section
-   ================================================== -->
+   ================================================== --> 
    <section id="about">
-      <div class="row"><!--<div class="row">-->
+      <nav id="nav-wrap">
 
-         <div class="three columns"> <!-- three columns -->
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
 
-            <img class="profile-pic"  src="images/Reza_Golpayegani.jpg"  /> 
-            
+         <ul id="nav" class="nav">
+            <!-- <li class="current"><a class="smoothscroll" href="#home">Home</a></li> -->
+            <li><a class="smoothscroll" href="#about">About</a></li>
+	         <li><a class="smoothscroll" href="#CV">CV</a></li>
+            <!--<li><a class="smoothscroll" href="#portfolio">Works</a></li> -->
+            <!-- <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li> -->
+            <li><a class="smoothscroll" href="#contact">Contact</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+      <div class="row"><!--<div class="row">-->	
+         <div class="four columns"> <!-- three columns -->
+               <img class="profile-pic"  src="images/Reza_Golpayegani.jpg"  />
+               <br><c>Reza Golpayegani</c> 
+               <br><d>Electrical Engineering Student at <a class="smoothscroll" href="https://en.kntu.ac.ir/"> K. N. Toosi University of Technology</a></d>
+               <div class="row">
+                  <ul class="social">
+                     <li><a href="reza.golpayegani1379@gmail.com"><i class ="fa fa-envelope"></i></a></li>
+                     <li><a href="https://www.linkedin.com/in/rezagolpayegani/"><i class="fa fa-linkedin"></i></a></li>
+                     <li><a href="https://github.com/RezaGolpayegani"><i class ="fa fa-github"></i></a></li>
+                     <li><a href="https://join.skype.com/invite/iN6pYxvEkRTQ"><i class="fa fa-skype"></i></a></li>
+                     <li><a href="https://instagram.com/rezagolpayegani_"><i class="fa fa-instagram"></i></a></li> 
+                     <!-- <li><a href="https://www.facebook.com/reza.golpayegani.1"><i class="fa fa-facebook"></i></a></li> -->
+                     <li><a href="https://twitter.com/rgolpayegani"><i class="fa fa-twitter"></i></a></li> 
+                     <!--<li><a href="#"><i class="fa fa-dribbble"></i></a></li>-->
+                     <!--<li><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
+               </ul>
+            </div>
          </div>
 
-         <div class="nine columns main-col">
+         <div class="eight columns">
 
             <h2>About Me</h2>
             <p>- Self-motivated Data Scientist interested in Machine Learning,
@@ -100,14 +134,19 @@
                  and computer vision. I am passionate about learning
                   new things and collaborating as an active team member.
                    Currently, I spend on learning and practicing to develop my skills. 
-
-                   <br>
-                   <br>
-                   <br>
-                   <br>
-               - Experienced Teacher Assistant with a demonstrated
+            </p>
+            <p>- Experienced Teacher Assistant with a demonstrated
                 history of working in the higher education industry.
                  Skilled in Python, C++, MATLAB.
+            </p>
+
+            <h2>Research Interests:</h2>
+            <p>
+               <ii class="fa fa-circle" aria-hidden="true"></ii> Machine Learning<br>
+               <ii class="fa fa-circle" aria-hidden="true"></ii> Deep Learning<br>
+               <ii class="fa fa-circle  aria-hidden="true"></ii> Natural Language Processing<br>
+               <ii class="fa fa-circle" aria-hidden="true""></ii> Computer Vision<br>
+               <ii class="fa fa-circle" aria-hidden="true"></ii> Image Processing<br>
             </p>
 
             
@@ -127,11 +166,13 @@
       <!-- Education
       ----------------------------------------------- -->
       <div class="row">
-
-         <div class="columns download">
-            <p>
-               <a href="https://drive.google.com/uc?export=download&id=1kcbElCN6PeT-sKHMtIarpN1VgBdcI_6y" class="button"><i class="fa fa-download"></i>Download CV</a>
-            </p>
+         <div class="three columns"></div>
+         <div class="nine columns">
+            <!--<div class="columns download"> -->
+               <pp>
+                  <a href="https://drive.google.com/uc?export=download&id=1kcbElCN6PeT-sKHMtIarpN1VgBdcI_6y" class="button"><i class="fa fa-download"></i>Download CV</a>
+               </pp>
+            <!-- </div>-->
          </div>
 
       </div> <!-- end row -->
@@ -240,8 +281,11 @@
    -->
 
 
-      <!-- Skills
-      ----------------------------------------------- -->
+
+
+      <!--
+      <-- Skills
+      ----------------------------------------------- --
       <div class="row skill">
 
          <div class="three columns header-col">
@@ -251,7 +295,7 @@
          <div class="nine columns main-col">
 
             <p>
-               <!-- if you want you can add some info herre-->
+               <-- if you want you can add some info herre--
             </p>
 
 				<div class="bars">
@@ -265,13 +309,20 @@
                   <li><span class="bar-expand LaTeX"></span><em>LaTeX</em></li>
 					</ul>
 
-				</div><!-- end skill-bars -->
+				</div><-- end skill-bars --
 
-			</div> <!-- main-col end -->
+			</div> <-- main-col end --
 
-      </div> <!-- End skills -->
+      </div> <-- End skills --
+   -->
 
    </section> <!-- CV Section End-->
+
+
+
+
+
+
 
 
    <!-- Contact Section

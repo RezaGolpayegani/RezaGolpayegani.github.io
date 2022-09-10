@@ -196,25 +196,73 @@ ul#nav li.current a { color: #F06000; }
    overflow: hidden;
 }
 
-#about a, #about a:visited  { color: #11ABB0; }/*fff*/
-#about a:hover, #about a:focus { color: #11ABB0; }
+/*#about a, #about a:visited  { color: #11ABB0; }/*fff
+#about a:hover, #about a:focus { color: #11ABB0; }*/
 
 #about h2 {
    font: 25px/30px 'opensans-bold', sans-serif;
    color: #11ABB0;/*fff*/
    margin-bottom: 12px;
+   /*margin-top: 12px;*/
+}
+#about ii{
+   font-size: 12px;
+   color: #11ABB0;
+   padding: 10px;
+   vertical-align: middle;
 }
 #about p {
    line-height: 30px;
    color: #ffffff;/*7A7A7A*/
+   vertical-align: middle;
+}
+#about a{
+   line-height: 30px;
+   color: #f66497;/*fff F06000 11abb0 f66497*/
+}
+#about a:hover{
+   line-height: 30px;
+   color: #F06000;/*fff F06000 11abb0 f66497*/
 }
 #about .profile-pic {
-   position: relative;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   margin-left: 35px;
+   position: relative; /*relative*/
    width: 120px;
    height: 120px;
    border-radius: 100%;
 }
-
+#about c {
+   font: 22px/30px 'opensans-bold', sans-serif;
+   color: #11abb0;/*fff*/
+   /*letter-spacing: -2px;*/
+   /*margin: 0 auto 18px auto;*/
+   
+   text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+}
+#about d{
+   line-height: 30px;
+   color: #ffffff;/*7A7A7A*/
+   vertical-align: middle;
+}
+/* about social links */
+#about .social {
+   margin: 24px 25px;
+   padding: 0;
+   font-size: 30px;
+   text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+}
+#about .social li {
+   display: inline-block;
+   margin: 0 5px;
+   padding: 0;
+}
+#about .social li a { 
+   color: #11ABB0; /*fff F06000 11abb0 f66497*/
+   margin-bottom: 1000000000px;
+ }
+#about .social li a:hover { color: #F06000; }
 
 #about .main-col { padding-right: 5%; }
 
@@ -227,20 +275,21 @@ ul#nav li.current a { color: #F06000; }
 /*#CV a, #CV a:visited  { color: #11ABB0; }/*11ABB0*/
 /*CV a:hover, #CV a:focus { color: #11ABB0; }/*11ABB0*//*313131*/
 
-#CV .download {
+#CV  pp { /*.download*/
    width: 58.33333%;
    padding-top: 6px;
 }
-#CV .download .button {
+#CV pp .button {
    margin-top: 6px;
-   background: #444;
-   color: #11ABB0;
+   background: #11ABB0;/*444*/
+   color: #2B2B2B;/*11ABB0*/
+   margin-bottom: 70px;
 }
-#CV .download .button:hover {
-   background: #11ABB0;/*fff*/
-   color: #2B2B2B;
+#CV pp .button:hover {
+   background: #F06000;/*fff*//*11ABB0*/
+   color: #2B2B2B;/*2B2B2B*/
 }
-#CV .download .button i {
+#CV pp .button i {
    margin-right: 15px;
    font-size: 20px;
 }
@@ -271,7 +320,7 @@ ul#nav li.current a { color: #F06000; }
    
 }
 #CV h3 a:hover{
-   color: #11ABB0;
+   color: #F06000;
 }
 #CV h3 b{
    font: 25px/30px 'opensans-bold', sans-serif;
@@ -283,11 +332,13 @@ ul#nav li.current a { color: #F06000; }
 #CV .header-col { padding-top: 9px; }
 #CV .main-col { padding-right: 10%; }
 
+/*
 .education, .work {
    margin-bottom: 48px;
    padding-bottom: 24px;
-   border-bottom: 2px solid #ff0000;/*E8E8E8*/
+   border-bottom: 2px solid #ff0000;/*E8E8E8
 }
+*/
 #CV .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #ffffff;/*6E7881*/
