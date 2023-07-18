@@ -8,7 +8,9 @@
         "statusBarItem.remoteForeground": "#15202b",
         "sideBar.border": "#fbed80",
         "statusBar.border": "#f9e64f",
-        "tab.activeBorder": "#fbed80"
+        "tab.activeBorder": "#fbed80",
+        "editorGroup.border": "#fbed80",
+        "panel.border": "#fbed80"
     },
     "peacock.remoteColor": "#f9e64f"
 }
